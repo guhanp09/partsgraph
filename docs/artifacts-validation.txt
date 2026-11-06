@@ -1,0 +1,10 @@
+{
+  "project": "partsgraph",
+  "checks_passed": 16,
+  "workbooks": [
+    {
+      "file": "scenario_review.xlsx",
+      "formula_count": 0
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+action,incremental_cost_inr,recovered_contribution_inr,remaining_lost_contribution_inr,net_recovery_inr
+No action,0,0.0,131400.0,0.0
+Approved substitution,480,52000.0,79400.0,51520.0
+Expedite unaffected orders,2500,0.0,131400.0,-2500.0

@@ -1,0 +1,8 @@
+{
+  "products": 4,
+  "components": 14,
+  "baseline_units": 36,
+  "seal_outage_lost_contribution_inr": 131400.0,
+  "after_substitution_lost_contribution_inr": 79400.0,
+  "incompatible_fan_rejected": true
+}

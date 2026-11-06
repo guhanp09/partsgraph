@@ -1,0 +1,81 @@
+{
+  "checks_passed": 16,
+  "checks": [
+    "All numerical metrics are finite",
+    "Generated results match the current analytical source files",
+    "PDF report has a valid document header",
+    "Analysis includes substantive methods and limitations",
+    "scenario_review.xlsx workbook structure",
+    "scenario_review.xlsx has no cached Excel errors in xl/worksheets/sheet1.xml",
+    "scenario_review.xlsx has no broken references in xl/worksheets/sheet1.xml",
+    "scenario_review.xlsx has no cached Excel errors in xl/worksheets/sheet2.xml",
+    "scenario_review.xlsx has no broken references in xl/worksheets/sheet2.xml",
+    "scenario_review.xlsx has no cached Excel errors in xl/worksheets/sheet3.xml",
+    "scenario_review.xlsx has no broken references in xl/worksheets/sheet3.xml",
+    "scenario_review.xlsx has no cached Excel errors in xl/worksheets/sheet4.xml",
+    "scenario_review.xlsx has no broken references in xl/worksheets/sheet4.xml",
+    "Healthy scenario satisfies all 36 demand units",
+    "Approved spares reduce outage loss",
+    "Voltage-incompatible alternate is rejected"
+  ],
+  "workbooks": [
+    {
+      "file": "scenario_review.xlsx",
+      "formula_count": 0
+    }
+  ],
+  "artifacts": {
+    "actions.csv": {
+      "bytes": 236,
+      "sha256": "aadefd5e075cfcea55ab994a76c4298dcce6083d918079811fe0c591cc88ebf8"
+    },
+    "analysis.md": {
+      "bytes": 1442,
+      "sha256": "72609bdc2c23d1646d1e6a8b936610af092a80ef9435cc62ff3c8dd38d30abd4"
+    },
+    "analysis.pdf": {
+      "bytes": 2751,
+      "sha256": "dbb063e2329e605def798a294f3d649b14bbd923a22a14b28bc8450879beda48"
+    },
+    "build_manifest.json": {
+      "bytes": 749,
+      "sha256": "080c1c56dae0f9bc3639ba27ad8f18b7402c94f4ef18ea762c558ea2fec7e9b4"
+    },
+    "dependencies.graphml": {
+      "bytes": 5987,
+      "sha256": "8c3073935f9ef39ead4310c9fa9309aee74fe25459b0a78fb5bea853b9df3a48"
+    },
+    "dependency_paths.csv": {
+      "bytes": 387,
+      "sha256": "8f678a22a48041f72d8b34bbb08b3ec3c66276eca2bf93618f16d5e18624071b"
+    },
+    "metrics.json": {
+      "bytes": 205,
+      "sha256": "858dadc6f4d161591b4a6c5ff32568e1bcb13744c06d7447503dbbf74279a27c"
+    },
+    "outage_allocation.csv": {
+      "bytes": 195,
+      "sha256": "90184ca5f07e6f70a4e88eb3328758f2d062321e16e146396e9fe6dc6bb09570"
+    },
+    "scenario_review.xlsx": {
+      "bytes": 8024,
+      "sha256": "2b390cb036f2f8c5e630793673f951f4b69354ca595a97b160686b82aee67df4"
+    },
+    "sensitivity.csv": {
+      "bytes": 152,
+      "sha256": "116009dd12d63f2ed26276a3d0d623a6dd44920a8ecc6dd36cf3347b6598d080"
+    },
+    "source_manifest.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "supplier_risk.csv": {
+      "bytes": 220,
+      "sha256": "462ebb0f0f0fd7e67509d7a82040e8ec11f5fbf3b88bdf25c705906d85258c74"
+    },
+    "supplier_risk.html": {
+      "bytes": 4859575,
+      "sha256": "d01b0ae948f35d8337b2d03de1404d70d089de87b2723af2951dbc46f5eee03f"
+    }
+  }
+}

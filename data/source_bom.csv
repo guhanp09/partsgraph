@@ -1,0 +1,26 @@
+assembly,component,description,quantity,specification,indicative_cost_inr,cost_status,manufacturing_or_sourcing_notes
+study,enclosure,Four-side shell and seam angles,1,2 mm aluminum; 424 x 424 x 400 mm outer,,not quoted,Fold/cut to drawing; fused CAD is an envelope
+study,condenser_core,Representative finned core,1,420 x 420 x 40 mm gross interface,,not quoted,Generic envelope; actual headers and sealing require measurement
+study,axial_fan,Single guarded puller fan,1,300 mm nominal swept diameter,,not quoted,Obtain real pressure-flow and power data before hardware claims
+study,shroud,Interchangeable A B C D printed airflow transition,4,3 mm radial wall; 120 mm length,,not quoted,Select temperature-suitable filament; segmentation may be required
+study,baffle,Sealed shroud inlet support,1,2 mm sheet; variant-specific aperture,,not quoted,Deburr; seal ring joint outside bore
+study,mounting_feet,Perforated base tabs,4,35 x 25 x 3 mm; 6 mm holes,,not quoted,Fasten to rigid bench
+study,core_rails,External retaining bars,2,12 x 6 mm section,,not quoted,Keep gross flow opening clear; add process-specific fasteners
+study,gaskets_and_fasteners,Core and shroud seals and captive hardware,1 set,Temperature-compatible compressible seals,,not quoted,Verify no bypass or rotor intrusion
+study,guards,Commercial fan finger guards,2,Match fan size and swept envelope,,not quoted,Guard pressure loss is excluded from idealized CFD
+rig,DC_fan,Commercial low-voltage axial fan,1,120 mm nominal; measure swept and mounting dimensions,,not quoted,Purchase guarded fan; record SKU datasheet curve and supply voltage
+rig,water_air_radiator,Compact unpressurized-loop radiator,1,Generic 140 x 140 x 30 mm interface,,not quoted,Measure actual flange headers fins resistance UA and topology
+rig,printed_shroud,Interchangeable low-voltage fixture transition,4,50 mm length; generic 122 mm bore,,not quoted,Generate from rig YAML; adapt holes to actual fan
+rig,enclosure_and_feet,Sealed bench airflow module,1,144 x 144 x 160 mm outer; 2 mm walls,,not quoted,Fabricate from sheet or temperature-suitable printed panels
+rig,reservoir,Vented open water reservoir,1,1-2 L supervised bench vessel,,not quoted,Fit catch tray; no sealed or pressure-heated vessel
+rig,pump,Low-voltage circulating pump,1,Temperature-compatible adjustable flow,,not quoted,Set and measure flow; do not infer it from pump label
+rig,tubing_clamps,Water circuit tubing clamps and radiator adapters,1 set,Temperature and diameter matched to purchased components,,not quoted,Secure hoses; keep connections over tray
+rig,water_temperature,Matched differential inlet/outlet temperature probes,2,Calibrated differential uncertainty target <=0.05 K,,not quoted,Immersion wells near radiator ports; characterize time constants
+rig,air_temperature,Inlet and mixed outlet sensor arrays,2 arrays,Differential uncertainty target <=0.15 K,,not quoted,Flow-weight or mix; avoid one hot filament or radiator radiation
+rig,water_flow,Mass-flow determination,1,Timed gravimetric collection or calibrated low-flow meter,,not quoted,Target standard uncertainty <=2 percent at actual test flow
+rig,airflow,Calibrated nozzle or traverse measurement,1,Separate pressure loss characterized,,not quoted,Target standard uncertainty <=5 percent; no single-point velocity claim
+rig,differential_pressure,Low-range differential pressure instrument,1,Range matched to actual core; target <=0.5 Pa std uncertainty,,not quoted,Use flush static pressure taps; zero with stopped fan
+rig,electrical_measurement,DC voltage and current meters,1 set,Calibrated at fan terminals,,not quoted,Fan circuit measured separately from pump and heater
+rig,power_supply_fuses,Isolated DC supply and branch protection,1 set,12 or 24 V matched to purchased loads,,not quoted,Rate wiring connectors fuses to actual stall and heater currents
+rig,heater_controls,Optional guarded low-voltage water heater and independent cutoff,1,Supervised <=100 W starting range; target <=50 C,,not quoted,No dry run; never a sealed vessel; cutoff <=55 C assumption
+rig,bench_support_and_guards,Rigid stand guard screens drip tray and strain relief,1 set,Fit actual purchased components,,not quoted,Inspect before every run

@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-11-06T09:29:58.114918+00:00",
+  "python": "3.12.7",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "source_code_sha256": {
+    "src/partsgraph/__init__.py": "f6d35293a94d294d3d2306cf808316be4612493fd1e6d48f258212cabd14c7b1",
+    "src/partsgraph/app.py": "ece5b8eb70b1297779e86a7ae34598d35fa9c849aeb6460aa0533cbd9e8492aa",
+    "src/partsgraph/cli.py": "859180e9df758b2bebb5a928e3e4b0e9c7e33cb2201ebb43b894eb3c76fd08f8",
+    "src/partsgraph/core.py": "5687e7e9c86dbde27f52d92fec9d59a120dae738b6e58a8941fab17ccc6d1db7",
+    "src/partsgraph/io.py": "663f4f0fd647f96163b1e8446ffc4fc9f39a69e543e110eff27537e66106acd6",
+    "src/partsgraph/pipeline.py": "61d9d1477d1e08e22d9e4885fcc5ad9b2443f95433f8a48ea6899ffaebec03c9"
+  }
+}

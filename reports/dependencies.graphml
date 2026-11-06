@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d0" for="edge" attr.name="quantity" attr.type="double"/>
+<graph edgedefault="directed"><node id="condenser-baseline"/>
+<node id="chassis-baseline"/>
+<node id="enclosure"/>
+<node id="condenser_core"/>
+<node id="axial_fan"/>
+<node id="shroud-baseline"/>
+<node id="baffle"/>
+<node id="mounting_feet"/>
+<node id="core_rails"/>
+<node id="gaskets_and_fasteners"/>
+<node id="guards"/>
+<node id="condenser-rounded"/>
+<node id="chassis-rounded"/>
+<node id="shroud-rounded"/>
+<node id="condenser-tapered"/>
+<node id="chassis-tapered"/>
+<node id="shroud-tapered"/>
+<node id="condenser-combined"/>
+<node id="chassis-combined"/>
+<node id="shroud-combined"/>
+<edge source="condenser-baseline" target="chassis-baseline">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-baseline" target="condenser_core">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-baseline" target="axial_fan">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-baseline" target="shroud-baseline">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-baseline" target="baffle">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-baseline" target="gaskets_and_fasteners">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-baseline" target="guards">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-baseline" target="enclosure">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-baseline" target="mounting_feet">
+  <data key="d0">4.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-baseline" target="core_rails">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="chassis-rounded">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="condenser_core">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="axial_fan">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="shroud-rounded">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="baffle">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="gaskets_and_fasteners">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-rounded" target="guards">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-rounded" target="enclosure">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-rounded" target="mounting_feet">
+  <data key="d0">4.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-rounded" target="core_rails">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="chassis-tapered">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="condenser_core">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="axial_fan">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="shroud-tapered">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="baffle">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="gaskets_and_fasteners">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-tapered" target="guards">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-tapered" target="enclosure">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-tapered" target="mounting_feet">
+  <data key="d0">4.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-tapered" target="core_rails">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="chassis-combined">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="condenser_core">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="axial_fan">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="shroud-combined">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="baffle">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="gaskets_and_fasteners">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="condenser-combined" target="guards">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-combined" target="enclosure">
+  <data key="d0">1.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-combined" target="mounting_feet">
+  <data key="d0">4.0</data>
+  <data key="d1">requires</data>
+</edge>
+<edge source="chassis-combined" target="core_rails">
+  <data key="d0">2.0</data>
+  <data key="d1">requires</data>
+</edge>
+</graph></graphml>

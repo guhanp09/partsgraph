@@ -1,0 +1,5 @@
+product,demand,margin_inr,buildable,unfilled,contribution_inr
+condenser-baseline,8,3200,0,8,0
+condenser-rounded,10,3700,0,10,0
+condenser-tapered,12,4200,0,12,0
+condenser-combined,6,4600,2,4,9200

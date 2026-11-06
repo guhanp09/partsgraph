@@ -1,0 +1,7 @@
+{
+  "source": "CondenserLab reports/bom.csv",
+  "source_sha256": "053f0c38a929b69f37b88b6105ba80f2cee15eeb3a0f0be2036ebeafaed46c2a",
+  "simulation_seed": 26,
+  "actual_artifacts": "component names, descriptions, and source quantities",
+  "scenario_assumptions": "product families, subassemblies, demand, costs, margins, stock, lead times, compatibility and suppliers; source shroud quantity 4 represents four alternatives, mapped to one per variant"
+}
